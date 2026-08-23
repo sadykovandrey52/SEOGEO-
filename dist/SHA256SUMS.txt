@@ -1,2 +1,2 @@
-c718e91dec4d9153beb717cfc5265d2e4a74916ce1ad58998dc57ace1ed33881  wolfagroles-theme.zip
+639bb9b8ba7bc8854e06699775e3ba7cd1d45e629a0cf5d72a23f32815a472ba  wolfagroles-theme.zip
 b9a89d4ab804281d94434913a310e8f2549e4d71a2ba30fdfe128bedbedc1077  wolfagroles-core.zip
