@@ -1,0 +1,32 @@
+name: Validate and build WordPress packages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: none
+      - name: PHP syntax
+        run: find wp-content -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: Build and structural checks
+        run: bash tools/build.sh
+      - name: Upload installable packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: wolfagroles-wordpress-packages
+          path: |
+            dist/wolfagroles-theme.zip
+            dist/wolfagroles-core.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error

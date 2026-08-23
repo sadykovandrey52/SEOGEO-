@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "760px", "wideSize": "1180px" },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "ink", "name": "Почти чёрный", "color": "#101214" },
+        { "slug": "accent", "name": "Бирюзовый", "color": "#19AFA8" },
+        { "slug": "mist", "name": "Светлый фон", "color": "#EFF4F4" },
+        { "slug": "muted", "name": "Вторичный текст", "color": "#667278" },
+        { "slug": "white", "name": "Белый", "color": "#FFFFFF" }
+      ]
+    },
+    "spacing": {
+      "spacingScale": { "steps": 7 },
+      "units": ["px", "rem", "vw", "%"]
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        { "fontFamily": "Inter, Arial, sans-serif", "slug": "primary", "name": "Inter" }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.875rem", "name": "Малый" },
+        { "slug": "medium", "size": "1rem", "name": "Основной" },
+        { "slug": "large", "size": "1.25rem", "name": "Крупный" },
+        { "slug": "x-large", "size": "clamp(2rem, 5vw, 4.5rem)", "name": "Заголовок" }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#FFFFFF", "text": "#101214" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--primary)", "lineHeight": "1.55" },
+    "elements": {
+      "button": {
+        "color": { "background": "#19AFA8", "text": "#101214" },
+        "border": { "radius": "0px" },
+        "typography": { "fontWeight": "700" }
+      },
+      "link": { "color": { "text": "#087f7a" } },
+      "heading": { "typography": { "fontWeight": "700", "lineHeight": "1.08" } }
+    }
+  }
+}

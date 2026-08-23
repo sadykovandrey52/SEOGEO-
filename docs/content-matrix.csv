@@ -1,0 +1,13 @@
+entity,source,status,target_url,publication_rule
+Контакты,"Мастер-промт 24.08.2026",ПОДТВЕРЖДЕНО,/kontakty/,publish
+Реквизиты,"Мастер-промт 24.08.2026",ПОДТВЕРЖДЕНО,/rekvizity/,publish
+О компании,"Юридические данные и адрес",ПОДТВЕРЖДЕНО,/o-kompanii/,publish
+Требования к файлам,"Технические настройки формы",ПОДТВЕРЖДЕНО,/trebovaniya-k-faylam/,publish
+Лазерная резка листового металла,,НУЖНЫ ДАННЫЕ,/uslugi/lazernaya-rezka-listovogo-metalla/,draft
+Газовая и плазменная резка,,НУЖНЫ ДАННЫЕ,/uslugi/gazovaya-plazmennaya-rezka/,draft
+Ленточнопильная резка,,НУЖНЫ ДАННЫЕ,/uslugi/lentochnopilnaya-rezka/,draft
+Сварочные работы,,НУЖНЫ ДАННЫЕ,/uslugi/svarochnye-raboty/,draft
+Изготовление закладных деталей,,НУЖНЫ ДАННЫЕ,/uslugi/zakladnye-detali/,draft
+Гибка арматуры 2D,,НУЖНЫ ДАННЫЕ,/uslugi/gibka-armatury-2d/,draft
+Размотка и резка арматуры,,НУЖНЫ ДАННЫЕ,/uslugi/razmotka-i-rezka-armatury/,draft
+Комплексное изготовление по чертежам,,НУЖНЫ ДАННЫЕ,/uslugi/izgotovlenie-po-chertezham/,draft
