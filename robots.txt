@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wolfagro.ru/sitemap.xml
